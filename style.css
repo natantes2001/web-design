@@ -234,7 +234,17 @@ ul li a:hover{
 	cursor: pointer;
 	background-color: #ffc107;
 }
-.box a{
+.forgot{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgray;
+
+}
+.forgot:hover{
+	color: #ffc107;
+}
+/*.box a{
 	text-decoration: none;
 	font-size: 12px;
 	line-height: 20px;
@@ -243,6 +253,21 @@ ul li a:hover{
 }
 .box a:hover{
 	color: #ffc107;
+}
+*/
+.icons a{
+	text-decoration: none;
+	color: #fff;
+}
+.icons ion-icon{
+	color: #fff;
+	font-size: 30px;
+	padding-left: 14px;
+	padding-top: 5px;
+	transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+	color: #ff7200; 
 }
 
 
